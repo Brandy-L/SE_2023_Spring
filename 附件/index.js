@@ -60,7 +60,7 @@ function initUserInfo() {
                         <span id="name"> </span>
                     </div>`;
     document.getElementById('top-right').innerHTML = content;
-    document.getElementById('name').innerHTML=username.split('<')[0];
+    document.getElementById('name').textContent=username.split('<')[0];
 }
 
 // ============================================================ 你不需要去关注的代码
